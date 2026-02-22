@@ -144,7 +144,9 @@ class _CarFormState extends State<CarForm> {
             TextFormField(
               controller: mileageCtrl,
               decoration: const InputDecoration(labelText: 'Mileage km/l'),
-              keyboardType: const TextInputType.numberWithOptions(decimal: true),
+              keyboardType: const TextInputType.numberWithOptions(
+                decimal: true,
+              ),
               inputFormatters: [
                 FilteringTextInputFormatter.allow(RegExp(r'^\d*[\.,]?\d{0,2}')),
               ],
@@ -157,7 +159,9 @@ class _CarFormState extends State<CarForm> {
                 labelText: 'Presupuesto (USD)',
                 hintText: 'Ej: 15000',
               ),
-              keyboardType: const TextInputType.numberWithOptions(decimal: true),
+              keyboardType: const TextInputType.numberWithOptions(
+                decimal: true,
+              ),
               inputFormatters: [
                 FilteringTextInputFormatter.allow(RegExp(r'^\d*[\.,]?\d{0,2}')),
               ],
