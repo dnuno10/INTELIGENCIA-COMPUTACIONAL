@@ -1,0 +1,5 @@
+durante esta actividad se utilizó apoyo de IA únicamente en partes específicas para agilizar el desarrollo y 
+la documentación del trabajo.La IA se utilizó en:
+- Apoyo inicial para estructurar la implementación base de las clases VectorStore y FilteredVectorStore.
+- Generación de algunos ejemplos de consultas de prueba para validar el funcionamiento del sistema.
+- Revisión de errores simples de sintaxis, manejo de exepciones y organización del código.
